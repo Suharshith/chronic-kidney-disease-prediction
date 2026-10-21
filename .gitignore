@@ -1,0 +1,31 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Large model binaries (>100MB exceeds GitHub push limits)
+*.h5
+*.keras
+*.pth
+*.pt
+*.onnx
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Streamlit config & cache
+.streamlit/secrets.toml
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
